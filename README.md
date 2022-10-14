@@ -1,0 +1,1 @@
+# This is a simple review carousel using Pure JavaScript without framework
