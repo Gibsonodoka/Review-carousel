@@ -1,3 +1,59 @@
+<<<<<<< Updated upstream
 * {
 box-sizing: border-box;
 }
+=======
+* {
+    box-sizing: border-box;
+}
+.container {
+
+}
+
+.reviews {
+    height:auto;
+    width: 30%;
+    border: 2px solid grey;
+    padding: 10px;
+    margin: auto;
+}
+.img-container{
+    border: 2px solid rgb(80, 80, 156);
+    background-color: rgb(80, 80, 156);
+    width: 20%;
+    height: auto;
+    padding: 1px;
+    margin: auto;
+    border-style: double;
+    border-radius: 60px;
+}
+#person-img {
+   height: 100%;
+   width: 100%;
+   border-radius: 30px;
+}
+.underline {
+    background: aqua;
+    width: 5%;
+    height: 3px;
+    margin-top: 0.1rem;
+    margin-bottom: 15px;
+    border: 0;
+
+}
+.title{
+    text-align: center;
+    margin: auto;
+}
+.review-text {
+    margin: auto;
+    width: 100%;
+    padding:4px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.dark{
+    background-color: #222;
+    color: #e6e6e6;
+}
+>>>>>>> Stashed changes

@@ -88,4 +88,9 @@ randomBtn.addEventListener('click', function(){
   showPerson(); 
 });
 
+function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark");
+    }
+
 

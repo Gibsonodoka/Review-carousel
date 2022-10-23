@@ -6,19 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple review carousel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
     <main>
         <section class="container">
             <div class="title">
-                <h2>Our Reviews</h2>
-                <div class="underline"></div>
+                <h2>Reviews</h2>
+                <div> <hr class="underline"></div>
             </div>
             <article class="reviews">
                 <div class="img-container">
-                    <img src="" id="person-img" alt="">
+                    <img src="images/Phot.jpg" id="person-img" alt="">
                 </div>
+                <div class="review-text">
                 <h4 id="author">Akpanah Belema</h4>
                 <p id="job">Project Manager</p>
                 <p id="info"> Lorem ipsum dolor sit amet 
@@ -29,20 +32,22 @@
                     possimus aut, modi fugit aperiam enim 
                     magni sequi.
                 </p>
+                </div>
                 <div class="button-container">
                     <button class="prev-btn">
-                    <i class="fas fa-chevron-left"></i>
+                    <i class="fa fa-chevron-left"></i>
                     </button>
                     <button class="next-btn">
-                        <i class="fas fa-chevron-right"></i>
+                        <i class="fa fa-chevron-right"></i>
                     </button>
                 </div>
                 <button class="random-btn">Surprise me</button>
+                <button onclick="myFunction()">Switch mode</button>
             </article>
         </section>
     </main>
 
     <!-- JavaScript file-->
-    <script src="review.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
