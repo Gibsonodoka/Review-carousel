@@ -7,6 +7,7 @@ const reviews = [
         img: "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0m.jpg",
         text: " I'm Gibson uwhetu uwhetu a Junior Software developer with over three years of experience",
     },
+// array ID 2
     {
         id: 2,
         name: "Opara Eze Tochi",
