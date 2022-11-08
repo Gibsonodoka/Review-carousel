@@ -15,6 +15,7 @@ const reviews = [
         img: "",
         text: " I'm Gibson uwhetu uwhetu a Junior Software developer with over three years of experience",
     },
+    // Array ID 3
     {
         id: 3,
         name: "Akpanah Belema",
