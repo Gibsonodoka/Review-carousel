@@ -96,4 +96,6 @@ function myFunction() {
     element.classList.toggle("dark");
     }
 
+// End of App
+
 
